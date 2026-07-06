@@ -1,0 +1,10 @@
+---
+- name: Test role
+  hosts: localhost
+  gather_facts: no
+  
+  roles:
+    - role: create_file
+      vars:
+        file_path: /tmp/role_test.txt
+        file_content: "Content from role"
