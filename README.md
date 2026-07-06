@@ -18,7 +18,7 @@ Documentation for the collection.
   my_own_namespace.yandex_cloud_elk.my_own_module:
     path: /tmp/file.txt
     content: "Hello"
-
+```
 
 Скриншоты к заданиям:
 ![zadanie1](./1.png)
